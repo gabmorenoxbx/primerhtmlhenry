@@ -1,5 +1,9 @@
 .fondo{
     background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* altura completa */
+    margin: 0;
 }
 .miTexto{
     font-size: 20px;
@@ -30,4 +34,37 @@ h1{
 img{
     border: none;
     border-radius: 20px;
+}
+.cardcontainer{
+    width: 85vh;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;                 /* Habilita flexbox */
+    flex-direction: row;
+    align-items: center;          /* Centra verticalmente los hijos */
+    justify-content: center;      /* Centra horizontalmente los hijos */
+     border: 1px solid red;        /* Borde visible */
+    padding: 20px;
+    gap: 100px;                    /* Espacio entre hijos */
+    flex-wrap: wrap;              /* Permite que los hijos salten de línea */
+}
+.aliados{
+    padding: 2px;
+    margin: 10px 10px 10px 10px;
+    box-shadow:0 0 10px red;
+    width: 150px;
+    height: 150px;
+    transition: all 800ms ease;
+}
+.aliados:hover{
+    box-shadow:0 0 10px blue;
+    transform:scale(1.4);
+}
+.TextoDiv{
+    color: white;
+    size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
