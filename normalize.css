@@ -1,0 +1,72 @@
+/* normalize.css simplificado */
+
+/* Document settings */
+html {
+  line-height: 1.15; /* Mejor legibilidad */
+  -webkit-text-size-adjust: 100%; /* iOS: evita autoajuste de tamaño */
+}
+
+/* Body defaults */
+body {
+  margin: 0;
+}
+
+/* Headings preserve default sizes */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Text elements */
+p, blockquote, pre, a, span, strong, em, small {
+  font: inherit;
+  color: inherit;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Forms */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+/* Buttons and inputs */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
