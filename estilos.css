@@ -20,8 +20,16 @@ hr{
 h2{
     color: white;
 }
+.titulocontainer{
+    border: solid blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 1500ms;
+}
 h1{
     font-size: 5em;
+    width: 80vh; /*ancho del contenedor MAFIAIII*/
+    margin: auto;
     color: white;
     display: flex;
     justify-content: center;/*centrar horizontal*/
@@ -30,6 +38,9 @@ h1{
     text-align: center;
     border: solid red;
     padding: 0;
+}
+.titulocontainer:hover{
+    transform: scale(1.5) ;
 }
 img{
     border: none;
@@ -41,10 +52,10 @@ img{
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;                 /* Habilita flexbox */
-    flex-direction: row;
+    flex-direction: row;          /*fila*/
     align-items: center;          /* Centra verticalmente los hijos */
     justify-content: center;      /* Centra horizontalmente los hijos */
-     border: 1px solid red;        /* Borde visible */
+     border: none;        /* Borde visible */
     padding: 20px;
     gap: 100px;                    /* Espacio entre hijos */
     flex-wrap: wrap;              /* Permite que los hijos salten de línea */
@@ -67,4 +78,30 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.h2aliados{
+    width: 85vh;
+    color: blue;
+    font-size: 2em;
+    margin-top: 30px;
+    width: auto;
+    text-align: center;
+    transition: all 1000ms ease;
+}
+.h2aliados:hover{
+    color: rgb(50, 50, 100);
+    transform: scale(1.1);
+}
+.h2enemigos{
+    width: auto;
+    margin: auto;
+    color: red;
+    font-size: 2em;
+    margin-top: 30px;
+    text-align: center;
+    transition: all 1000ms ease;
+}
+.h2enemigos:hover{
+    color: rgb(150, 20, 10);
+    transform: scale(1.1);
 }
